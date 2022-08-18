@@ -13,8 +13,6 @@ const Basket = () => {
   const dispatch = useDispatch();
   const hasItems = basket.length;
 
-  console.log(hasItems);
-
   return (
     <Layout>
       <SectionWrapper>
